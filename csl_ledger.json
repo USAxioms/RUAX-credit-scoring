@@ -1,0 +1,137 @@
+[
+  {
+    "H_i": "0195ebf839ecd8b52406b4ea998cef93744144afbec7c9469a5fd5e8cdbc8155",
+    "H_prev": "0000000000000000000000000000000000000000000000000000000000000000",
+    "S_i": {
+      "_label": "GENESIS",
+      "algorithm": "S = 300 + floor(550 * (0.35P + 0.30U + 0.15A + 0.10M + 0.10I))",
+      "arithmetic": "WAD-18 exact integer (18 decimal digits)",
+      "capsule": "credit-capsule",
+      "data_source": "/home/claude/credit-capsule/data/reference_reports.json",
+      "fixed_point": "Score is a closed-form deterministic function; E* = R(E*) satisfied by algebraic identity on first evaluation.",
+      "network": "DISABLED \u2014 blockchain anchoring deferred",
+      "score_range": [
+        300,
+        850
+      ],
+      "version": "1.0.0",
+      "weights": {
+        "A": "0.15",
+        "I": "0.10",
+        "M": "0.10",
+        "P": "0.35",
+        "U": "0.30"
+      }
+    },
+    "T_i": "2026-11-02T08:38:07.477196+00:00",
+    "i": 0
+  },
+  {
+    "H_i": "23d5fcfdcb2a771a9569370585af8a52a43304aa4415c95058832d538e67f8b6",
+    "H_prev": "0195ebf839ecd8b52406b4ea998cef93744144afbec7c9469a5fd5e8cdbc8155",
+    "S_i": {
+      "A_str": "0.966666",
+      "I_str": "1.000000",
+      "M_str": "0.750000",
+      "P_str": "1.000000",
+      "U_str": "0.850000",
+      "_label": "excellent_credit",
+      "composite_str": "0.925000",
+      "consumer_id": "REF-001",
+      "expected_min": 780,
+      "label": "excellent_credit",
+      "meets_expected": true,
+      "n_tradelines": 3,
+      "score_int": 808,
+      "utilization_pct": 2935.0,
+      "weights_sum_one": true
+    },
+    "T_i": "2026-11-02T08:38:07.478066+00:00",
+    "i": 1
+  },
+  {
+    "H_i": "715cf88ffc2081f02facf08215c3c6676493f67712948942ed2d67edadac1920",
+    "H_prev": "23d5fcfdcb2a771a9569370585af8a52a43304aa4415c95058832d538e67f8b6",
+    "S_i": {
+      "A_str": "0.175000",
+      "I_str": "0.700000",
+      "M_str": "0.500000",
+      "P_str": "0.916666",
+      "U_str": "0.100000",
+      "_label": "fair_credit",
+      "composite_str": "0.497083",
+      "consumer_id": "REF-002",
+      "expected_min": 560,
+      "label": "fair_credit",
+      "meets_expected": true,
+      "n_tradelines": 2,
+      "score_int": 573,
+      "utilization_pct": 140.0,
+      "weights_sum_one": true
+    },
+    "T_i": "2026-11-02T08:38:07.478796+00:00",
+    "i": 2
+  },
+  {
+    "H_i": "c027889fc42a0a8b3edbd3b050a256c04a0e2151a259296cfe9f0bb36e425802",
+    "H_prev": "715cf88ffc2081f02facf08215c3c6676493f67712948942ed2d67edadac1920",
+    "S_i": {
+      "A_str": "0.000000",
+      "I_str": "0.000000",
+      "M_str": "0.000000",
+      "P_str": "0.000000",
+      "U_str": "0.000000",
+      "_label": "thin_file",
+      "composite_str": "0.000000",
+      "consumer_id": "REF-003",
+      "expected_min": 300,
+      "label": "thin_file",
+      "meets_expected": true,
+      "n_tradelines": 0,
+      "score_int": 300,
+      "utilization_pct": 0,
+      "weights_sum_one": true
+    },
+    "T_i": "2026-11-02T08:38:07.479653+00:00",
+    "i": 3
+  },
+  {
+    "H_i": "35ee9213fb3451a7689ada5513d2031467e5555ee55bb8f3df2ea7825dfbce9c",
+    "H_prev": "c027889fc42a0a8b3edbd3b050a256c04a0e2151a259296cfe9f0bb36e425802",
+    "S_i": {
+      "A_str": "0.433333",
+      "I_str": "0.900000",
+      "M_str": "0.250000",
+      "P_str": "0.972222",
+      "U_str": "0.900000",
+      "_label": "good_credit",
+      "composite_str": "0.790277",
+      "consumer_id": "REF-004",
+      "expected_min": 680,
+      "label": "good_credit",
+      "meets_expected": true,
+      "n_tradelines": 2,
+      "score_int": 734,
+      "utilization_pct": 10.0,
+      "weights_sum_one": true
+    },
+    "T_i": "2026-11-02T08:38:07.480644+00:00",
+    "i": 4
+  },
+  {
+    "H_i": "fadbd0fb7d4ffd495d0895d4fa86f64d49fb6ea0413ac2202539d428a139e37b",
+    "H_prev": "35ee9213fb3451a7689ada5513d2031467e5555ee55bb8f3df2ea7825dfbce9c",
+    "S_i": {
+      "H_final": "35ee9213fb3451a7689ada5513d2031467e5555ee55bb8f3df2ea7825dfbce9c",
+      "_label": "FINALIZATION",
+      "all_pass": true,
+      "blockchain": "PENDING \u2014 network disabled",
+      "n_reports": 4,
+      "polygon_payload": {
+        "data": "0x35ee9213fb3451a7689ada5513d2031467e5555ee55bb8f3df2ea7825dfbce9c"
+      }
+    },
+    "T_i": "2026-11-02T08:38:07.481486+00:00",
+    "i": 5
+  }
+]

@@ -1,0 +1,706 @@
+{
+  "mutants": [
+    {
+      "elapsed": 0.238,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:36:False\u2192True",
+      "line": 36,
+      "mutant": "True",
+      "original": "False",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.204,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:37:not\u2192",
+      "line": 37,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.209,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:40:not\u2192",
+      "line": 40,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.201,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:42:<\u2192<=",
+      "line": 42,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.197,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:42:0\u21921",
+      "line": 42,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.185,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:44:<\u2192<=",
+      "line": 44,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.193,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:44:0\u21921",
+      "line": 44,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.262,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:46:<\u2192<=",
+      "line": 46,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.239,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:46:0\u21921",
+      "line": 46,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.215,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:58:1\u21922",
+      "line": 58,
+      "mutant": "2",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.228,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:58:1\u21920",
+      "line": 58,
+      "mutant": "0",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.243,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:58:==\u2192!=",
+      "line": 58,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.228,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:79:<\u2192<=",
+      "line": 79,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.216,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:79:0\u21921",
+      "line": 79,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.216,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:102:not\u2192",
+      "line": 102,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.207,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:108:and\u2192or",
+      "line": 108,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.217,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:108:not\u2192",
+      "line": 108,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.228,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:113:and\u2192or",
+      "line": 113,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.182,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:113:not\u2192",
+      "line": 113,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.189,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:126:not\u2192",
+      "line": 126,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.188,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:127:0\u21921",
+      "line": 127,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.195,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:128:1\u21922",
+      "line": 128,
+      "mutant": "2",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.21,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:128:1\u21920",
+      "line": 128,
+      "mutant": "0",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.226,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:129:==\u2192!=",
+      "line": 129,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.187,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:129:0\u21921",
+      "line": 129,
+      "mutant": "1",
+      "original": "0",
+      "status": "SURVIVED"
+    },
+    {
+      "elapsed": 0.176,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:130://\u2192*",
+      "line": 130,
+      "mutant": "*",
+      "original": "//",
+      "status": "SURVIVED"
+    },
+    {
+      "elapsed": 0.17,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:131:*\u2192//",
+      "line": 131,
+      "mutant": "//",
+      "original": "*",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.217,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:131:1\u21922",
+      "line": 131,
+      "mutant": "2",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.211,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:131:1\u21920",
+      "line": 131,
+      "mutant": "0",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.184,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:133://\u2192*",
+      "line": 133,
+      "mutant": "*",
+      "original": "//",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.194,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:136:1\u21922",
+      "line": 136,
+      "mutant": "2",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.188,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:136:1\u21920",
+      "line": 136,
+      "mutant": "0",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.168,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:137:<=\u2192<",
+      "line": 137,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.203,
+      "file": "src/credit_report.py",
+      "id": "src/credit_report.py:157:False\u2192True",
+      "line": 157,
+      "mutant": "True",
+      "original": "False",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.174,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:39:0\u21921",
+      "line": 39,
+      "mutant": "1",
+      "original": "0",
+      "status": "SURVIVED"
+    },
+    {
+      "elapsed": 0.179,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:53:+\u2192-",
+      "line": 53,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.187,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:53:+\u2192-",
+      "line": 53,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.171,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:53:+\u2192-",
+      "line": 53,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.199,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:53:+\u2192-",
+      "line": 53,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.191,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:57:4\u21925",
+      "line": 57,
+      "mutant": "5",
+      "original": "4",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.205,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:57:4\u21923",
+      "line": 57,
+      "mutant": "3",
+      "original": "4",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.199,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:76:==\u2192!=",
+      "line": 76,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.195,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:76:0\u21921",
+      "line": 76,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.176,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:92:==\u2192!=",
+      "line": 92,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.204,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:92:0\u21921",
+      "line": 92,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.192,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:100:-\u2192+",
+      "line": 100,
+      "mutant": "+",
+      "original": "-",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.17,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:123:-\u2192+",
+      "line": 123,
+      "mutant": "+",
+      "original": "-",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.195,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:132:+\u2192-",
+      "line": 132,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.205,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:133:+\u2192-",
+      "line": 133,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.228,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:134:+\u2192-",
+      "line": 134,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.192,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:135:+\u2192-",
+      "line": 135,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.206,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:142:+\u2192-",
+      "line": 142,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.18,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:159:not\u2192",
+      "line": 159,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.17,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:173:==\u2192!=",
+      "line": 173,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.195,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:174:0\u21921",
+      "line": 174,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.18,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:174:0\u21921",
+      "line": 174,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.189,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:175:0\u21921",
+      "line": 175,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.184,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:175:0\u21921",
+      "line": 175,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.194,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:176:0\u21921",
+      "line": 176,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.229,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:176:0\u21921",
+      "line": 176,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.225,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:177:0\u21921",
+      "line": 177,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.191,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:177:0\u21921",
+      "line": 177,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.2,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:178:True\u2192False",
+      "line": 178,
+      "mutant": "False",
+      "original": "True",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.186,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:199:6\u21927",
+      "line": 199,
+      "mutant": "7",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.22,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:199:6\u21925",
+      "line": 199,
+      "mutant": "5",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.165,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:200:6\u21927",
+      "line": 200,
+      "mutant": "7",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.199,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:200:6\u21925",
+      "line": 200,
+      "mutant": "5",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.175,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:201:6\u21927",
+      "line": 201,
+      "mutant": "7",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.186,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:201:6\u21925",
+      "line": 201,
+      "mutant": "5",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:202:6\u21927",
+      "line": 202,
+      "mutant": "7",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.176,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:202:6\u21925",
+      "line": 202,
+      "mutant": "5",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.22,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:203:6\u21927",
+      "line": 203,
+      "mutant": "7",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.188,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:203:6\u21925",
+      "line": 203,
+      "mutant": "5",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.19,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:206:6\u21927",
+      "line": 206,
+      "mutant": "7",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.209,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:206:6\u21925",
+      "line": 206,
+      "mutant": "5",
+      "original": "6",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.183,
+      "file": "src/score_engine.py",
+      "id": "src/score_engine.py:211:==\u2192!=",
+      "line": 211,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    }
+  ],
+  "started_utc": "2026-11-03T23:10:22.656469+00:00",
+  "summary": {
+    "effective_kill_rate_percent": 100,
+    "exhaustive": true,
+    "finished_utc": "2026-11-03T23:10:38.020483+00:00",
+    "killed": 73,
+    "mutants": 76,
+    "proven_equivalent": 3,
+    "raw_kill_rate_percent": 96,
+    "revision": "audit-2 (harness repaired; wad18.py audited separately; earlier equivalence labels re-examined)",
+    "scope": "credit_report.py + score_engine.py",
+    "survived": 3,
+    "unexplained_survivors": 0
+  },
+  "targets": [
+    "src/credit_report.py",
+    "src/score_engine.py"
+  ]
+}
