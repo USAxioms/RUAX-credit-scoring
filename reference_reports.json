@@ -1,0 +1,114 @@
+{
+  "reports": [
+    {
+      "consumer_id": "REF-001",
+      "report_date": "2026-11-01",
+      "label": "excellent_credit",
+      "expected_score_min": 780,
+      "tradelines": [
+        {
+          "account_id": "CC-001",
+          "account_type": "revolving",
+          "balance_cents": 150000,
+          "limit_cents": 1000000,
+          "opened_months_ago": 96,
+          "payment_history": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK",
+                              "OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+          "is_closed": false
+        },
+        {
+          "account_id": "AUTO-001",
+          "account_type": "installment",
+          "balance_cents": 1200000,
+          "limit_cents": 2500000,
+          "opened_months_ago": 48,
+          "payment_history": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK",
+                              "OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+          "is_closed": false
+        },
+        {
+          "account_id": "MORT-001",
+          "account_type": "mortgage",
+          "balance_cents": 28000000,
+          "limit_cents": 35000000,
+          "opened_months_ago": 120,
+          "payment_history": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK",
+                              "OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+          "is_closed": false
+        }
+      ],
+      "hard_inquiries": [
+        {"inquiry_id": "INQ-001", "months_ago": 14}
+      ]
+    },
+    {
+      "consumer_id": "REF-002",
+      "report_date": "2026-11-01",
+      "label": "fair_credit",
+      "expected_score_min": 560,
+      "tradelines": [
+        {
+          "account_id": "CC-002",
+          "account_type": "revolving",
+          "balance_cents": 450000,
+          "limit_cents": 500000,
+          "opened_months_ago": 24,
+          "payment_history": ["OK","30","OK","OK","60","OK","OK","OK","OK","OK","OK","OK"],
+          "is_closed": false
+        },
+        {
+          "account_id": "PL-002",
+          "account_type": "installment",
+          "balance_cents": 250000,
+          "limit_cents": 500000,
+          "opened_months_ago": 18,
+          "payment_history": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+          "is_closed": false
+        }
+      ],
+      "hard_inquiries": [
+        {"inquiry_id": "INQ-002", "months_ago": 3},
+        {"inquiry_id": "INQ-003", "months_ago": 6},
+        {"inquiry_id": "INQ-004", "months_ago": 9}
+      ]
+    },
+    {
+      "consumer_id": "REF-003",
+      "report_date": "2026-11-01",
+      "label": "thin_file",
+      "expected_score_min": 300,
+      "tradelines": [],
+      "hard_inquiries": []
+    },
+    {
+      "consumer_id": "REF-004",
+      "report_date": "2026-11-01",
+      "label": "good_credit",
+      "expected_score_min": 680,
+      "tradelines": [
+        {
+          "account_id": "CC-003",
+          "account_type": "revolving",
+          "balance_cents": 100000,
+          "limit_cents": 1000000,
+          "opened_months_ago": 60,
+          "payment_history": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK",
+                              "OK","OK","OK","30","OK","OK","OK","OK","OK","OK","OK","OK"],
+          "is_closed": false
+        },
+        {
+          "account_id": "CC-004",
+          "account_type": "revolving",
+          "balance_cents": 50000,
+          "limit_cents": 500000,
+          "opened_months_ago": 36,
+          "payment_history": ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"],
+          "is_closed": false
+        }
+      ],
+      "hard_inquiries": [
+        {"inquiry_id": "INQ-005", "months_ago": 2}
+      ]
+    }
+  ]
+}

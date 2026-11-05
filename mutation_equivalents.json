@@ -1,0 +1,29 @@
+{
+  "revision": "audit-2",
+  "scope": "src/credit_report.py, src/score_engine.py (wad18.py audited once in shared-wad18; csl.py and pipeline.py not mutated)",
+  "note": "Equivalence arguments are accompanied by grid/brute-force evidence run in the audit (see CLAIMS_SHEET.md).",
+  "supersedes": "EQ-CC-01..19 of v1.0. Those listed dead wad18 code (now audited separately), and EQ-CC-19 (10 display-string mutants) which was a TEST GAP, now closed by tests/test_gap_audit.py.",
+  "equivalences": [
+    {
+      "id": "EQ-CR-01",
+      "file": "src/score_engine.py",
+      "line": 39,
+      "mutant": "sys.path.insert(1,...)",
+      "evidence": "argument: import resolution unchanged"
+    },
+    {
+      "id": "EQ-CR-02",
+      "file": "src/credit_report.py",
+      "line": 129,
+      "mutant": "total_weight == 1",
+      "evidence": "n==1 with zero balance gives the same age on both paths; n>=2 gives total_weight>=2. 0 differences over 20000 random tradeline sets"
+    },
+    {
+      "id": "EQ-CR-03",
+      "file": "src/credit_report.py",
+      "line": 130,
+      "mutant": "// -> *",
+      "evidence": "UNREACHABLE branch (total_weight >= len >= 1). Instrumented to raise if executed: executed 0 of 20000 times. Candidate for removal"
+    }
+  ]
+}
